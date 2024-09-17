@@ -12,10 +12,5 @@ pipeline {
                 sh 'echo test'
             }
         }
-        stage('test2'){
-            steps{
-                sh 'echo test2'
-            }
-        }
     }
 }
